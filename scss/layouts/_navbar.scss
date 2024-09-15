@@ -1,0 +1,44 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: $clr-light;
+    margin-bottom: 2rem;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  }
+
+  .nav-links {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5rem;
+    gap: 10px;
+
+    li {
+      transition: transform 200ms ease-out;
+      
+      &:hover{
+        transform: scale(1.1);
+      }
+    }
+  }
+  
+  .btn-secondary {
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+
+  .signin {
+    background-color: $clr-accent;
+    color: black;
+    font-weight: bold;
+
+  }
+
+  .signup {
+    background-color: $clr-secondary;
+    font-weight: bold;
+  }
+  

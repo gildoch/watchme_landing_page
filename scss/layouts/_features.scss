@@ -1,0 +1,33 @@
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    gap: 20px;
+    padding: 50px;
+    background-color: $clr-bg-1;
+    
+    .feature {
+      padding: 5rem;
+      text-align: center;
+      box-shadow: rgba(242, 192, 70, 1) 0px 0px 0px 3px;
+      border-radius: 10px;
+      transition: transform 200ms ease-in-out;
+      
+      &:hover{
+        transform: scale(0.9);
+      }
+  
+      h3 {
+        font-size: 2rem;
+        margin-bottom: .5rem;
+      }
+      
+      p {
+        font-size: 1.2rem;
+      }
+    }
+  }
+  
+  
+  
+
+  
